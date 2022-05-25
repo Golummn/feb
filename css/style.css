@@ -1,0 +1,103 @@
+.login {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	margin-right: 3px;
+}
+.login:hover {
+	color: #ce1212;
+}
+.berita {
+	text-decoration: none;
+	color: #000;
+	margin-right: 3px;
+}
+.berita:hover {
+	color: #ce1212;
+}
+.banner {
+	height: 80vh;
+	width: 100%;
+	background-size: cover;
+}
+.red {
+	color: #ce1212;
+}
+.red-1 {
+	color: #ce1212;
+	text-decoration: none;
+	font-weight: 500;
+}
+.red-1:hover {
+	color: #ce1212;
+}
+a.red:hover {
+	color: #b91616;
+}
+.vl {
+	border-left: 2px solid #ce1212;
+	height: 250px;
+}
+
+.separator {
+	display: flex;
+	align-items: center;
+}
+
+.separator .line {
+	flex: 1;
+	height: 3px;
+	background-color: #b6b7b7;
+	margin-left: 1rem;
+}
+.active-drop {
+	color: #ce1212;
+}
+.active-drop:hover {
+	color: #b91616;
+}
+.btn-base {
+	background-color: #ce1212;
+	color: #ffffff;
+	font-weight: 700;
+}
+.btn-base:hover {
+	background-color: #b91616;
+	color: #ffffff;
+}
+.btn-login {
+	background-color: #ce1212;
+	color: #ffffff;
+	font-weight: 600;
+}
+.btn-login:hover {
+	background-color: #b91616;
+	color: #ffffff;
+}
+
+.icon-footer {
+	color: #fff;
+}
+.icon-footer:hover {
+	color: #e4e1e1;
+}
+.pengumuman-card {
+	text-decoration: none;
+	color: #000;
+}
+.pengumuman-card:hover {
+	color: #ce1212;
+}
+.berita-card {
+	text-decoration: none;
+	color: #000;
+}
+.berita-card:hover {
+	color: #ce1212;
+}
+
+@media screen and (max-width: 1000px) {
+	.vl {
+		display: none;
+	}
+}
